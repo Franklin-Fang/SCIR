@@ -12,7 +12,7 @@ This repo contains the code for **SCIR: A Self-Correcting Iterative Refinement F
 <br>
 
 ## Architecture  
-<img width="716" alt="abs" src="https://anonymous.4open.science/r/SCIR/SCIR.png">
+<img width="716" alt="abs" src="https://github.com/Franklin-Fang/SCIR/SCIR.png">
 
 ## Getting Started
 
