@@ -12,7 +12,6 @@ This repo contains the code for **SCIR: A Self-Correcting Iterative Refinement F
 <br>
 
 ## Architecture  
-
 <img width="716" alt="abs" src="https://anonymous.4open.science/r/SCIR/SCIR.png">
 
 ## Getting Started
@@ -31,14 +30,12 @@ conda activate scir
 cd ./SCIR
 pip install -r requirements.txt
 ```
-
 ## Training Steps
 
 1. First install ms-swift.
 2. Configure model in ./model and dataset in ./data
 
 3. Start training:
-
 ```bash
 cd ./train
 bash train_redundancy.sh   #train model to check redundancy  
