@@ -4,10 +4,8 @@ This repo contains the code for **SCIR: A Self-Correcting Iterative Refinement F
 
 <a target="_blank" href="https://anonymous.4open.science/r/SCIR">
 <img style="height:22pt" src="https://img.shields.io/badge/-Code-black?style=flat&logo=github"></a>
-<a target="_blank" href="https://anonymous.4open.science/r/SCIR/data/train/README.md">
+<a target="_blank" href="https://github.com/Franklin-Fang/SCIR/blob/main/data/train/readme.md">
 <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Dataset-red?style=flat"></a>
-<a target="_blank" href="https://anonymous.4open.science/r/SCIR/model/README.md">
-<img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Models-red?style=flat"></a>
 
 <br>
 
