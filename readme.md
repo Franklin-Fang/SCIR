@@ -1,6 +1,6 @@
 # SCIR
 
-This repo contains the code for **SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema.** In this paper, we create a multitask bilingual self-review training dataset (MBSF) for self-review model training, and propose a low-training-cost, high-generalization Self-Correcting Iterative Refinement (SCIR) framework.
+This repo contains the code for **SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema.** In this paper, we create a Multi-task Bilingual Self-Correctin training dataset (MBSC) for self-review model training, and propose a low-training-cost, high-generalization Self-Correcting Iterative Refinement (SCIR) framework.
 
 <a target="_blank" href="https://anonymous.4open.science/r/SCIR">
 <img style="height:22pt" src="https://img.shields.io/badge/-Code-black?style=flat&logo=github"></a>

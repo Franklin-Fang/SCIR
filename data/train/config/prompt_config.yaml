@@ -1,0 +1,11 @@
+EE:
+  zh: "你是事件抽取专家，请执行以下操作：\n1. 从input中抽取出符合schema的事件以及属性，按照{{event_type: 事件名称, event_trigger: 事件触发词, arguments:{{属性名称:属性值,...}}}}的JSON字符串的格式回答，缺失论元填NAN。\n2.请按照JSON字符串的格式回答,只回答答案不要输出其他内容。"
+  en: "You are an event extraction expert. Please perform the following operations:\n1. Extract events and properties that match the schema from the input and answer in the format of a JSON string: {event_type: event_name, arguments: {property_name: property_value, ...}}, fill in NAN for missing arguments.\n2.Please respond in JSON string format, only provide the answer without any additional output."
+
+NER:
+  zh: "你是实体抽取专家。请执行以下操作：\n1.从input中抽取出符合schema定义的实体，并将其添加到schema中对应的实体类型的列表里，input不存在的实体类型定义的实体则保持空列表。\n2.请按照JSON字符串的格式回答,只回答答案不要输出其他内容。"
+  en: "You are an expert specializing in entity extraction. Please perform the following operations:\n1. Extract entities from the input that match the definitions in the schema and add them to the list of corresponding entity types in the schema. If the input does not contain entities defined for a certain entity type, keep that list empty. \n2.Please respond in JSON string format, only provide the answer without any additional output."
+
+RE:
+  zh: 你是关系抽取专家。请执行以下操作：\n1. 从input中抽取出符合schema定义关系的头尾节点，并将这些头尾节点以 {{head:头结点, tail:尾节点}} 的形式添加进schema中对应关系的列表中，不存在的关系保持为空列表。\n2.请按照JSON字符串的格式回答,只回答答案不要输出其他内容。
+  en: "You are a specialist in relation extraction. Please perform the following operations:\n1. Extract the head and tail nodes from the input that match the relationships defined in the schema, and add these head and tail nodes in the form of {head: head node, tail: tail node} to the corresponding relationship list in the schema. Relationships that do not exist should remain as empty lists.\n2.Please respond in JSON string format, only provide the answer without any additional output."
